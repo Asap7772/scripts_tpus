@@ -1,12 +1,13 @@
 import os
 import time
 
-zone='us-central1-a'
+# zone='us-central1-a'
+zone='europe-west4-a'
 version='tpu-vm-base'
 accelerator_type='v3-8'
 
 which_tpus = {
-    'anikait-tpu-{}-y': list(range(6)),
+    'anikait-tpu-{}-z': list(range(6)),
 }
 
 while True:
