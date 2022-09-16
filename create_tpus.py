@@ -14,9 +14,9 @@ while True:
         for which_device in which_tpus[device_type]:
             tpu_name = device_type.format(str(which_device)) 
             print('creating {}'.format(tpu_name))
-            command = f"gcloud compute tpus tpu-vm create tpu-name --zone={zone} --accelerator-type={accelerator_type} --version={version}"
+            command = f"gcloud compute tpus tpu-vm create tpu-name --zone={zone} --accelerator-type={accelerator_type} --version={version} &"
             print(command)
             os.system(command)
 
-            time.sleep(0.1)
-        time.sleep(1)
+            time.sleep(0.5)
+        time.sleep(10)
