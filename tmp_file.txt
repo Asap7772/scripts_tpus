@@ -27,103 +27,85 @@ Host tpu2
   HostName 35.188.144.21
   User aviralkumar
 
-# aviral-tpu-12 = 34.133.4.245 
+# aviral-tpu-19 = 23.236.57.237 
 Host atpu3
-  HostName 34.133.4.245
+  HostName 23.236.57.237
   User anikaitsingh
 
 Host tpu3
-  HostName 34.133.4.245
+  HostName 23.236.57.237
   User aviralkumar
 
-# aviral-tpu-19 = 34.172.77.127 
+# aviral-tpu-21 = 35.188.199.139 
 Host atpu4
-  HostName 34.172.77.127
+  HostName 35.188.199.139
   User anikaitsingh
 
 Host tpu4
-  HostName 34.172.77.127
+  HostName 35.188.199.139
   User aviralkumar
 
-# aviral-tpu-21 = 34.171.190.127 
+# aviral-tpu-22 = 35.222.118.78 
 Host atpu5
-  HostName 34.171.190.127
+  HostName 35.222.118.78
   User anikaitsingh
 
 Host tpu5
-  HostName 34.171.190.127
-  User aviralkumar
-
-# aviral-tpu-22 = 35.188.155.46 
-Host atpu6
-  HostName 35.188.155.46
-  User anikaitsingh
-
-Host tpu6
-  HostName 35.188.155.46
+  HostName 35.222.118.78
   User aviralkumar
 
 # bridge-tpu-6 = 35.239.146.179 
-Host atpu7
+Host atpu6
   HostName 35.239.146.179
   User anikaitsingh
 
-Host tpu7
+Host tpu6
   HostName 35.239.146.179
   User aviralkumar
 
 # bridge-tpu-8 = 35.224.249.162 
-Host atpu8
+Host atpu7
   HostName 35.224.249.162
   User anikaitsingh
 
-Host tpu8
+Host tpu7
   HostName 35.224.249.162
   User aviralkumar
 
 # bridge-tpu-9 = 34.172.38.218 
-Host atpu9
+Host atpu8
   HostName 34.172.38.218
+  User anikaitsingh
+
+Host tpu8
+  HostName 34.172.38.218
+  User aviralkumar
+
+# anikait-tpu-8-x = 34.121.153.105 
+Host atpu9
+  HostName 34.121.153.105
   User anikaitsingh
 
 Host tpu9
-  HostName 34.172.38.218
+  HostName 34.121.153.105
   User aviralkumar
 
-# anikait-tpu-15-x = 35.223.77.245 
+# anikait-tpu-14-x = 34.172.254.147 
 Host atpu10
-  HostName 35.223.77.245
+  HostName 34.172.254.147
   User anikaitsingh
 
 Host tpu10
-  HostName 35.223.77.245
+  HostName 34.172.254.147
   User aviralkumar
 
-# anikait-tpu-8-x = 34.70.75.254 
+# anikait-tpu-0-y = 35.225.121.63 
 Host atpu11
-  HostName 34.70.75.254
+  HostName 35.225.121.63
   User anikaitsingh
 
 Host tpu11
-  HostName 34.70.75.254
+  HostName 35.225.121.63
   User aviralkumar
 
-# anikait-tpu-11-x = 34.67.74.215 
-Host atpu12
-  HostName 34.67.74.215
-  User anikaitsingh
-
-Host tpu12
-  HostName 34.67.74.215
-  User aviralkumar
-
-# anikait-tpu-5-y = 34.170.252.143 
-Host atpu13
-  HostName 34.170.252.143
-  User anikaitsingh
-
-Host tpu13
-  HostName 34.170.252.143
-  User aviralkumar
-
-# TOTAL MACHINES: 14
+# TOTAL MACHINES: 12
