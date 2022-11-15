@@ -34,12 +34,12 @@ for zone in zones:
             print(f'# {tpu_name} = {ip} {additional_str}')
             print(f'Host atpu{i}')
             print(f'  HostName {ip}')
-            print(f'  User anikaitsingh')
+            print(f'  User deepthought')
             print()
-            print(f'Host tpu{i}')
-            print(f'  HostName {ip}')
-            print(f'  User aviralkumar')
-            print()
+            # print(f'Host tpu{i}')
+            # print(f'  HostName {ip}')
+            # print(f'  User aviralkumar')
+            # print()
             i += 1
             
 
