@@ -5,10 +5,9 @@ from collections import OrderedDict
 zones = OrderedDict()
 
 zones['us-central1-a'] = {
-    'aviral-tpu-{}' : [4, 5, 11, 19, 21, 22],
+    'aviral-tpu-{}' : [4, 5, 11, 19, 21, 22], # Anikait's TPUs
     'bridge-tpu-{}' : [6, 8, 9],
-    'anikait-tpu-{}-x': [8, 14],
-    'anikait-tpu-{}-y': [0],
+    'aviral-tpu-{} ' : [14, 16], # Ria's TPYU
 }
 
 print("# TOTAL ZONES: {}".format(len(zones)))
