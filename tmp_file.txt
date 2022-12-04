@@ -13,7 +13,7 @@ Host atpu1
 # aviral-tpu-11 = 35.188.144.21 
 Host atpu2
   HostName 35.188.144.21
-  User anikaitsingh
+  User deepthought
 
 # aviral-tpu-19 = 35.188.199.139 
 Host atpu3
