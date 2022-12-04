@@ -15,6 +15,7 @@ mkdir pre-training-data; cd pre-training-data; gsutil -m cp -rn gs://pre-trainin
 
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
 bash ~/miniconda.sh -b -p ~/hdd/miniconda
+bash ~/miniconda.sh
 
 conda env create -f ~/jax_tpu.yml
 

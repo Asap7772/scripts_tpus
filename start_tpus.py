@@ -2,8 +2,9 @@ import os
 import time
 
 which_tpus = {
-    'aviral-tpu-' : [4, 5, 11, 12, 17, 19, 21, 22],
-    'bridge-tpu-' : [6, 8, 9, 10]
+    'aviral-tpu-' : [4],
+    # 'aviral-tpu-' : [4, 5, 11, 12, 17, 19, 21, 22],
+    # 'bridge-tpu-' : [6, 8, 9, 10]
 }
 
 while True:
