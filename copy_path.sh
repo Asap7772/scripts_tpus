@@ -1,9 +1,9 @@
 path_folder=/home/aviralkumar/hdd/
-exps=( "11_18_dueling_door_nohingemc" "video_multirobot")
+exps=( "12_20_dualq_proportion" "12_18_dueling_proportion_experiment")
 
 output_path="/raid/trainingdata/anikait_exps"
-# machines=(atpu0 atpu1 atpu2 atpu3 atpu4 atpu5 atpu6 atpu7 atpu8)
-machines=(atpu9)
+machines=(atpu0 atpu1 atpu2 atpu3 atpu4 atpu5 atpu6 atpu7 atpu8)
+# machines=(atpu9)
 
 for machine in ${machines[@]}; do
     for exp in "${exps[@]}"; do

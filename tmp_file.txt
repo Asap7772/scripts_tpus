@@ -13,41 +13,10 @@ Host atpu1
 # aviral-tpu-11 = 35.188.144.21 
 Host atpu2
   HostName 35.188.144.21
-  User deepthought
+  User anikaitsingh
 
-# aviral-tpu-19 = 35.188.199.139 
+# aviral-tpu-19 = 35.202.231.248 
 Host atpu3
-  HostName 35.188.199.139
+  HostName 35.202.231.248
   User anikaitsingh
 
-# aviral-tpu-21 = 34.121.153.105 
-Host atpu4
-  HostName 34.121.153.105
-  User anikaitsingh
-
-# aviral-tpu-22 = 34.173.176.250 
-Host atpu5
-  HostName 34.173.176.250
-  User anikaitsingh
-
-# bridge-tpu-6 = 35.239.146.179 
-Host atpu6
-  HostName 35.239.146.179
-  User anikaitsingh
-
-# bridge-tpu-9 = 34.172.38.218 
-Host atpu7
-  HostName 34.172.38.218
-  User anikaitsingh
-
-# anikait-tpu-8-x = 34.68.84.168 
-Host atpu8
-  HostName 34.68.84.168
-  User anikaitsingh
-
-# anikait-tpu-10-x = 35.222.118.78 
-Host atpu9
-  HostName 35.222.118.78
-  User anikaitsingh
-
-# TOTAL MACHINES: 10

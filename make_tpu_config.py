@@ -1,6 +1,11 @@
 import os
 import subprocess
+import argparse
 from collections import OrderedDict
+
+argparser = argparse.ArgumentParser()
+argparser.add_argument('--user', type=str, default='anikaitsingh')
+args = argparser.parse_args()
 
 zones = OrderedDict()
 
@@ -34,7 +39,7 @@ for zone in zones:
             print(f'# {tpu_name} = {ip} {additional_str}')
             print(f'Host atpu{i}')
             print(f'  HostName {ip}')
-            print(f'  User anikaitsingh')
+            print(f'  User {args.user}')
             print()
             i += 1
             

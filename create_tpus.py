@@ -1,10 +1,16 @@
 import os
 import time
+import argparse
 
-zone='us-central1-a'
-# zone='europe-west4-a'
-version='tpu-vm-base'
-accelerator_type='v3-8'
+parser = argparse.ArgumentParser()
+parser.add_argument('--zone', type=str, default='us-central1-a')
+parser.add_argument('--version', type=str, default='tpu-vm-base')
+parser.add_argument('--accelerator_type', type=str, default='v3-8')
+args = parser.parse_args()
+
+zone=args.zone
+version=args.version
+accelerator_type=args.accelerator_type
 
 which_tpus = {
     'anikait-tpu-{}-z': list(range(10)),
